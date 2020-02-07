@@ -1,7 +1,14 @@
 package main
 
+import animal.Dog
+
 fun main(args: Array<String>) {
-	oantuti();
+//	oantuti();
+//	var d = Dog("a",12);
+//	println("DOG is name:${d.name}, weigh:${d.weight}")
+//	d.roar();
+	println("ab".capitalize());
+	"ab".capitalize().also { println("Argument for Base: $it") };
 }
 
 fun oantuti(){
